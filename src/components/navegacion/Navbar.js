@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 const navbar = () => {
     return (
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <Link to='/'>
-                    <img src='/logo_bauzen.png' width='95'/>
+                    <img src='/logo_bauzen.png' alt='imagen de bauzen' width='95'/>
                 </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
