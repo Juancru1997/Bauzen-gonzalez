@@ -3,13 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import inicio from './components/paginas/inicio';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    
+    <div className='App'>
+      <header className='App-header'>
+      <App />
+      </header>
+      <body>
+        
+      </body>
+      </div>
+      
+
   </React.StrictMode>
 );
 

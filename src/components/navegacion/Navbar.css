@@ -2,5 +2,6 @@
 
 .nav-item {
     float: right;
+    text-align-last: right;
 
 }
