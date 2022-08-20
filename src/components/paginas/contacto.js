@@ -1,5 +1,7 @@
+import React from 'react'
 
-const contacto = () => {
+
+const Contacto = () => {
     return (
         <div>
             <h1>Esta es la pagina de contactos</h1>
@@ -7,4 +9,4 @@ const contacto = () => {
     )
 }
 
-export default contacto
+export default Contacto

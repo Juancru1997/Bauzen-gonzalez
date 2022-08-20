@@ -1,6 +1,7 @@
+import React from 'react'
 
 
-const inicio = () => {
+const Inicio = () => {
     return (
         <div>i
             <h1>Esta es la pagina de inicio</h1>
@@ -8,4 +9,4 @@ const inicio = () => {
     )
 }
 
-export default inicio
+export default Inicio
