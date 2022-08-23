@@ -1,7 +1,5 @@
-
-
-.nav-item {
-    float: right;
-    text-align-last: right;
-
+ul.navbar-nav {
+    display: flex;
+    position: fixed;
+    color: aqua;
 }

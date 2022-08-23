@@ -1,0 +1,11 @@
+.section-butom {
+    margin: auto;
+    padding-right: 50%;
+    color: blue;
+}
+
+.navbar-nav {
+    display: flex;
+    position: fixed;
+    color: aqua;
+}
