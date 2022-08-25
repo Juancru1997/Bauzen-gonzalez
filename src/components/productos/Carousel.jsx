@@ -1,11 +1,11 @@
-
+import IPA from '../assets/IPA.jpg'
 
 
 function Carousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img className="d-block w-100" href="../asest/botellasgolden.jpg" alt="Golden"/>
+        <img className="d-block w-100" href= {IPA} alt="IPA"/>
         <Carousel.Caption>
           <h3>Golden</h3>
           <p>

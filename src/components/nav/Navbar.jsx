@@ -1,4 +1,5 @@
 import React from 'react';
+import Favicon from '../assets/favicon.ico'
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
         <div class="container-fluid">
           <div class="logos">
             <a href="/">
-              <img src="../asest/BAUZEN_PNG.png" alt=""/>
+              <img src={ Favicon}  alt="Favicon"/>
             </a>
           </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +29,6 @@ function Navbar() {
             <a class="nav-link" href="#Contacto">Contacto</a>
             </li>
           </ul>
-          
         </div>
         </div>
       </nav>
