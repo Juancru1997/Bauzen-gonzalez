@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Navbar() {
   return (
       <header class="fixed-top">
@@ -20,13 +19,13 @@ function Navbar() {
             <a class="nav-link " aria-current="page" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/">Productos</a>
+            <a class="nav-link" href="#Productos">Productos</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/">Historia</a>
+            <a class="nav-link" href="#Historia">Historia</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/">Contacto</a>
+            <a class="nav-link" href="#Contacto">Contacto</a>
             </li>
           </ul>
           

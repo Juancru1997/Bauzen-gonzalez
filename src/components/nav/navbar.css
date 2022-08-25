@@ -1,0 +1,13 @@
+.logos {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logos img {
+    height: 100px;
+}
+
+nav .nav-item {
+    font-size: 20px;
+}
