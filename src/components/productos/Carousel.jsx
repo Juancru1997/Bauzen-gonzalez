@@ -1,5 +1,5 @@
 
-import carousel from "./carousel.css";
+
 
 function Carousel() {
   return (
