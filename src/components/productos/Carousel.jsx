@@ -1,14 +1,11 @@
-import Carousel from "react-bootstrap/Carousel";
+
 import carousel from "./carousel.css";
-function UncontrolledExample() {
+
+function Carousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          href="../asest/botellasgolden.jpg"
-          alt="Golden"
-        />
+        <img className="d-block w-100" href="../asest/botellasgolden.jpg" alt="Golden"/>
         <Carousel.Caption>
           <h3>Golden</h3>
           <p>
@@ -20,26 +17,26 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
+          src="../asest/IPA.jpg"
+          alt="IPA"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>IPA</h3>
+          <p>Indian Pale Ale es una cerveza rubia amarga con fuertes tenores del lupulo cascade, dejando un leve sabor frutado en nuestro paladar</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          src="../asest/scotish.jpg"
+          alt="Scottish"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Scottish</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Scottish es una cerveza roja con leves aspectos a caramelo y cafe, es una cerveza suave y facil de tomar.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -47,4 +44,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default Carousel;
